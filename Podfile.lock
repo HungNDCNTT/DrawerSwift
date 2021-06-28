@@ -1,0 +1,20 @@
+PODS:
+  - NXDrawKit (0.8.1)
+  - RSKImageCropper (3.0.2)
+
+DEPENDENCIES:
+  - NXDrawKit
+  - RSKImageCropper
+
+SPEC REPOS:
+  trunk:
+    - NXDrawKit
+    - RSKImageCropper
+
+SPEC CHECKSUMS:
+  NXDrawKit: 699e2862ae7c11a717e91dca37c11868a28c97b6
+  RSKImageCropper: 1ac71e9a82e3f41eea3eedfff8eacb0d3821c9ec
+
+PODFILE CHECKSUM: 5e376c750dd1a87a0249e14842cff8bde34761f8
+
+COCOAPODS: 1.10.1

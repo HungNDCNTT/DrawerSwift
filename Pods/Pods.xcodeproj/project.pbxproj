@@ -1,0 +1,1419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		012E8E6C4EA9E7E81CA81CC5BF771492 /* NXDrawKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3250327AE6BE7B535C371D5AD1B90649 /* NXDrawKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05786EEE357E9020F546DEECB68AD5A8 /* RSKImageCropper.h in Headers */ = {isa = PBXBuildFile; fileRef = 08A1595DC7C5B25CE7FA3FBD7DDC224A /* RSKImageCropper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		063AA6300FBFDB2DCB9CBB2D0C04626B /* RSKImageScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AAB4D8FC46A663C3865AC38D720862F /* RSKImageScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		134631E10AECB3EB1F69A2241C46930E /* RSKInternalUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 02D2D2BDD9057091F3CEA8275A991849 /* RSKInternalUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DCF9B2A71B5F2775A7290FB5DD08F5A /* icon_eraser@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1DB1E56238C3B6C8C41B02169B4EA5 /* icon_eraser@2x.png */; };
+		228C02205665048608F26632E216991A /* Pods-DrawerDemoSwiftTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF66F50B8317ED9B115516143519326 /* Pods-DrawerDemoSwiftTests-dummy.m */; };
+		273893D3A3ED6953BCACAC2A441ADE60 /* RSKTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6C02D2A73AD0C4A1316CB23D7CD66B /* RSKTouchView.m */; };
+		29139C371FDC61D23144B76E0DBC34E7 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = B785930FAEB33916D5A5B761375DDA51 /* Session.swift */; };
+		3771329C24E030F44A941AA452017492 /* RSKImageCropperStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7F315D4B35F8D51D44BABA3F3BAEF023 /* RSKImageCropperStrings.bundle */; };
+		397C107AE2AD10E82509D6BCF7013D1B /* icon_redo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC94AD87F64C71EF03C41DC0A331131 /* icon_redo@2x.png */; };
+		398EEBD40DEB54484AC8C58FD19E8B51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */; };
+		3BCE5FF444480BA3D0D2CB339D3711B0 /* icon_camera.png in Resources */ = {isa = PBXBuildFile; fileRef = B173ED86F19155A28C82A863ADB1A4C6 /* icon_camera.png */; };
+		3D465711789D9CDF0E50F023EDD59550 /* RSKImageCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A574241B43B6128FD05C45851C4ED1F /* RSKImageCropViewController.m */; };
+		45D4EA63CE343EDC0CAE229B0836834B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		479FC6E89C0BA565885F8A205EB0638B /* UIViewFrameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DC510467E53470B4ADD1B0657D3641 /* UIViewFrameExtension.swift */; };
+		5120A26E39146C71A49714055D1F9566 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C58081F1288CB7A08FCDF15D48D31E0 /* CircleButton.swift */; };
+		51A1A5385F021A91459CE3066EB7341B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */; };
+		524BA93C396F3C09EF8745F7F01B1DC1 /* icon_undo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F2483FCA6175BEF889600D599039FF /* icon_undo@2x.png */; };
+		53893175787CF683B80A6EFEE02CC69D /* Pods-DrawerDemoSwift-DrawerDemoSwiftUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA37C61DC5BC0705378E26C6D43CD21A /* Pods-DrawerDemoSwift-DrawerDemoSwiftUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A7D836D829B99EA803633761765D486 /* ToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDBF7FB72F63DA777731BE6A9CCE887 /* ToolBar.swift */; };
+		60EDBBB2656125F3D93BA1FAD7286E2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		66657E22F17ED86C83B5BFC10C8103DF /* Pods-DrawerDemoSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0309657485F027DF5644233B9281CCA /* Pods-DrawerDemoSwift-dummy.m */; };
+		6945763CD4E5841F07D30D02EBBE7D60 /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E416C501A2F1D322F4EF0B6D23026D2 /* Canvas.swift */; };
+		6C1FF3942B539272C9075577E778E483 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		70DE52CD9D01F5901A32ACE236380EA9 /* icon_redo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBAC9DED912A7A74E3E929EE6C2914EA /* icon_redo@3x.png */; };
+		7229CF6328AD288AD32F9C9C5BCBC24C /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D67016B80C94544195F37638C54AE91 /* Palette.swift */; };
+		72F6A381AD0B1C5275CF4E79AB9953AB /* Pods-DrawerDemoSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F47B56930BF515014BDA3C3BD3730B1 /* Pods-DrawerDemoSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73193EC3874798F94578D8B5071C560A /* RSKTouchView.h in Headers */ = {isa = PBXBuildFile; fileRef = F534D014A5AA44D43DF5F9D392753DC9 /* RSKTouchView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75B7D73B407EEA5ED1F584C4922392DB /* RSKImageCropViewController+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 862063D063D700BBB9BD5DF0620E14EB /* RSKImageCropViewController+Protected.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78105E480E79CBB7B576B87699904845 /* Pods-DrawerDemoSwift-DrawerDemoSwiftUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BC0CD10322B87FC5D8D20D197E2288 /* Pods-DrawerDemoSwift-DrawerDemoSwiftUITests-dummy.m */; };
+		791D19FBE162FA61869D79BBE7841923 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */; };
+		88437ACD4F6F6ED3A1DEF95B1567E571 /* icon_camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C88CEF079BF4C0B8AD30DD5C05FEC1E /* icon_camera@2x.png */; };
+		90807172E1DD58050A850CF4071EFBEF /* Brush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59164FA582D1960B799582C1AC8AF4CA /* Brush.swift */; };
+		91A8B1EEB98A682DACDD41BEA057A25B /* icon_undo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92A92B888DD18D9F815C7D78F5748BFB /* icon_undo@3x.png */; };
+		926BC3D3B762BEF4530547EE22AF1F1A /* icon_redo.png in Resources */ = {isa = PBXBuildFile; fileRef = E0FF947185F0685166727D190C590E4C /* icon_redo.png */; };
+		93F5DC8C90D766C62B74280B24CF1198 /* CGGeometry+RSKImageCropper.h in Headers */ = {isa = PBXBuildFile; fileRef = 76D77102D1BEF373124A62F4DA8BFB35 /* CGGeometry+RSKImageCropper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		953238937A74A5181D98E6B61CEA4F0F /* RSKImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D95DCED8BAA909FA0CB3338334F849 /* RSKImageScrollView.m */; };
+		95993AB57A86982329777BF226B479A1 /* NXDrawKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9284A697F9ECBFBEEF24F553A6271598 /* NXDrawKit-dummy.m */; };
+		A711DB7AE956011639E99BC8067477C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		A747DA2976FAFBDADFE14A3CAD568FD0 /* Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6991D091C3D22DF4B93A8F8D35FCFD /* Drawing.swift */; };
+		A7602F47C0EE4DB9CB42296167B4B5F4 /* icon_undo.png in Resources */ = {isa = PBXBuildFile; fileRef = B58991A34104E12EC8A5563B6A9A07BC /* icon_undo.png */; };
+		AB9006940F9600D174DDEF9CE68C89A3 /* UIImage+RSKImageCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = 992F9FE3711B7EDD17EDED4BFA12AF03 /* UIImage+RSKImageCropper.m */; };
+		AD15DF5B57CFCE9677C12BD833852439 /* CGGeometry+RSKImageCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E2B3AA851D0A92F25B91CBC06B3CC1 /* CGGeometry+RSKImageCropper.m */; };
+		B39DFE8866C66C731C073F1F900DCA3E /* UIImage+RSKImageCropper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E1BCD9E491E9F3A0A2F611232BC9837 /* UIImage+RSKImageCropper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B53978AFB88F3995F012622F55C5A73D /* RSKImageCropper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86433F27BCF13F625458EB6DA74EE20F /* RSKImageCropper-dummy.m */; };
+		B6713654B6A9A36FA3C6FB93F7920171 /* RSKInternalUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = EA15BFBF2442D171A72379C6ACFCC180 /* RSKInternalUtility.m */; };
+		BBBBBDE56053BEF429C46E83DB6D2441 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		BEAA3D408162408D8B317C5D63E95317 /* icon_eraser.png in Resources */ = {isa = PBXBuildFile; fileRef = 81188DC29131E1E2E49D0E74AF77B3E5 /* icon_eraser.png */; };
+		D2557DCF328395A30A91466101C7EF56 /* NXDrawKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 534E53882FD5F8F79EB1CDB58B8A1CA7 /* NXDrawKit.bundle */; };
+		D31A59CCC99DF6595AC708E1E35AAB2E /* RSKImageCropViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 201365A173C9D2681600752E7A6E845C /* RSKImageCropViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D436E08808FFEB32CB5FD35079B35CE1 /* icon_camera@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6801DA1AED7E876437074F3F3BEE93BC /* icon_camera@3x.png */; };
+		DF396E9B14B747F6903D4B926C9AABCA /* UIImageExtractExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A8274A452E77BA906FF935C8EC3E3E /* UIImageExtractExtension.swift */; };
+		E2B166117CC6A36A9C841F8CEA4B0431 /* icon_eraser@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F04249D66F9BA22E2B30C4E96D44152B /* icon_eraser@3x.png */; };
+		FEB87BDE2C589D4E14616F2519729AA9 /* Pods-DrawerDemoSwiftTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C39F33AA1B62DFF3FDC366C041A0D4B4 /* Pods-DrawerDemoSwiftTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AB423A741149900A06E20B51510CC91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 989D8912A90FEA816631AFF9809BF004;
+			remoteInfo = "Pods-DrawerDemoSwift";
+		};
+		6042C7DB15F7522859E33A1FBA23B1B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A30157FD17984D82FB7B26EE61267BE2;
+			remoteInfo = RSKImageCropper;
+		};
+		81F60FF66378A9269CCD82123FB707E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4575F78F6CA63687D1B2173044F92A0;
+			remoteInfo = NXDrawKit;
+		};
+		8C71203BF8A32FE61AE7A9573CBF07C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2B270FD27E5EB1522A582EE6D70C31B;
+			remoteInfo = "NXDrawKit-NXDrawKit";
+		};
+		D6B80B8E2D5B7F6879EF4EAD64D517E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A30157FD17984D82FB7B26EE61267BE2;
+			remoteInfo = RSKImageCropper;
+		};
+		D7A81854A884AC85BAC4B6DC652DEC79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4575F78F6CA63687D1B2173044F92A0;
+			remoteInfo = NXDrawKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01DC510467E53470B4ADD1B0657D3641 /* UIViewFrameExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewFrameExtension.swift; path = NXDrawKit/Classes/UIViewFrameExtension.swift; sourceTree = "<group>"; };
+		02D2D2BDD9057091F3CEA8275A991849 /* RSKInternalUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSKInternalUtility.h; path = RSKImageCropper/RSKInternalUtility.h; sourceTree = "<group>"; };
+		08A1595DC7C5B25CE7FA3FBD7DDC224A /* RSKImageCropper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSKImageCropper.h; path = RSKImageCropper/RSKImageCropper.h; sourceTree = "<group>"; };
+		0C88CEF079BF4C0B8AD30DD5C05FEC1E /* icon_camera@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_camera@2x.png"; path = "NXDrawKit/Assets/icon_camera@2x.png"; sourceTree = "<group>"; };
+		14EA295456BAA54B0F28D525BA6D5F02 /* Pods-DrawerDemoSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DrawerDemoSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		1D1DB1E56238C3B6C8C41B02169B4EA5 /* icon_eraser@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_eraser@2x.png"; path = "NXDrawKit/Assets/icon_eraser@2x.png"; sourceTree = "<group>"; };
+		1E9A41C9277B3ACF2E77B11EE191BF52 /* NXDrawKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NXDrawKit.modulemap; sourceTree = "<group>"; };
+		1FA642398399373F8231C620F5F57F1A /* Pods-DrawerDemoSwiftTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DrawerDemoSwiftTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		201365A173C9D2681600752E7A6E845C /* RSKImageCropViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSKImageCropViewController.h; path = RSKImageCropper/RSKImageCropViewController.h; sourceTree = "<group>"; };
+		268194BEA94D615B650AB9F57F806FD3 /* Pods_DrawerDemoSwift_DrawerDemoSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DrawerDemoSwift_DrawerDemoSwiftUITests.framework; path = "Pods-DrawerDemoSwift-DrawerDemoSwiftUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		278B2FCA9ED54BFF695753F4302F61CA /* NXDrawKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NXDrawKit.release.xcconfig; sourceTree = "<group>"; };
+		2A5DE09EB977DD27653461A45E0E45AB /* Pods-DrawerDemoSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DrawerDemoSwift.release.xcconfig"; sourceTree = "<group>"; };
+		2DDFBBF4C5C251528BC17F04EB5A34E5 /* Pods-DrawerDemoSwift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DrawerDemoSwift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3250327AE6BE7B535C371D5AD1B90649 /* NXDrawKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NXDrawKit-umbrella.h"; sourceTree = "<group>"; };
+		3AAB4D8FC46A663C3865AC38D720862F /* RSKImageScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSKImageScrollView.h; path = RSKImageCropper/RSKImageScrollView.h; sourceTree = "<group>"; };
+		3B456D5A81159FE693001B577AD0C23E /* NXDrawKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NXDrawKit-prefix.pch"; sourceTree = "<group>"; };
+		3D67016B80C94544195F37638C54AE91 /* Palette.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Palette.swift; path = NXDrawKit/Classes/Palette.swift; sourceTree = "<group>"; };
+		3E416C501A2F1D322F4EF0B6D23026D2 /* Canvas.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Canvas.swift; path = NXDrawKit/Classes/Canvas.swift; sourceTree = "<group>"; };
+		3EF66F50B8317ED9B115516143519326 /* Pods-DrawerDemoSwiftTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DrawerDemoSwiftTests-dummy.m"; sourceTree = "<group>"; };
+		429C38EACB2C85D2580D9847CCA548D2 /* Pods-DrawerDemoSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DrawerDemoSwift-Info.plist"; sourceTree = "<group>"; };
+		43C3695003983460B593C03C59A05099 /* RSKImageCropper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSKImageCropper-prefix.pch"; sourceTree = "<group>"; };
+		49FB4CD3A96142415A69518D9F5B996C /* Pods-DrawerDemoSwift-DrawerDemoSwiftUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DrawerDemoSwift-DrawerDemoSwiftUITests-frameworks.sh"; sourceTree = "<group>"; };
+		4A574241B43B6128FD05C45851C4ED1F /* RSKImageCropViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSKImageCropViewController.m; path = RSKImageCropper/RSKImageCropViewController.m; sourceTree = "<group>"; };
+		4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4CE398ED60932629AFD514548AE46E96 /* Pods-DrawerDemoSwift-DrawerDemoSwiftUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DrawerDemoSwift-DrawerDemoSwiftUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		521466AB97AC13C8A467D913ABEE75F0 /* NXDrawKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NXDrawKit.debug.xcconfig; sourceTree = "<group>"; };
+		534E53882FD5F8F79EB1CDB58B8A1CA7 /* NXDrawKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = NXDrawKit.bundle; path = "NXDrawKit-NXDrawKit.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		580712ADE0DDE9601ED35B000EC802D6 /* RSKImageCropper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RSKImageCropper.framework; path = RSKImageCropper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59164FA582D1960B799582C1AC8AF4CA /* Brush.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Brush.swift; path = NXDrawKit/Classes/Brush.swift; sourceTree = "<group>"; };
+		6801DA1AED7E876437074F3F3BEE93BC /* icon_camera@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_camera@3x.png"; path = "NXDrawKit/Assets/icon_camera@3x.png"; sourceTree = "<group>"; };
+		6A2B7BC427FEA25CE3ADDA601EAC0FD8 /* Pods-DrawerDemoSwift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DrawerDemoSwift-acknowledgements.plist"; sourceTree = "<group>"; };
+		74A8274A452E77BA906FF935C8EC3E3E /* UIImageExtractExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageExtractExtension.swift; path = NXDrawKit/Classes/UIImageExtractExtension.swift; sourceTree = "<group>"; };
+		76D77102D1BEF373124A62F4DA8BFB35 /* CGGeometry+RSKImageCropper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CGGeometry+RSKImageCropper.h"; path = "RSKImageCropper/CGGeometry+RSKImageCropper.h"; sourceTree = "<group>"; };
+		77F2483FCA6175BEF889600D599039FF /* icon_undo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_undo@2x.png"; path = "NXDrawKit/Assets/icon_undo@2x.png"; sourceTree = "<group>"; };
+		7C0872893F837EA0AE579F609BC5E20F /* RSKImageCropper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RSKImageCropper.modulemap; sourceTree = "<group>"; };
+		7F315D4B35F8D51D44BABA3F3BAEF023 /* RSKImageCropperStrings.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = RSKImageCropperStrings.bundle; path = RSKImageCropper/RSKImageCropperStrings.bundle; sourceTree = "<group>"; };
+		81188DC29131E1E2E49D0E74AF77B3E5 /* icon_eraser.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = icon_eraser.png; path = NXDrawKit/Assets/icon_eraser.png; sourceTree = "<group>"; };
+		836D65E3CD41898AA4155027588C012A /* Pods-DrawerDemoSwiftTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DrawerDemoSwiftTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		862063D063D700BBB9BD5DF0620E14EB /* RSKImageCropViewController+Protected.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RSKImageCropViewController+Protected.h"; path = "RSKImageCropper/RSKImageCropViewController+Protected.h"; sourceTree = "<group>"; };
+		86433F27BCF13F625458EB6DA74EE20F /* RSKImageCropper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RSKImageCropper-dummy.m"; sourceTree = "<group>"; };
+		8A6C02D2A73AD0C4A1316CB23D7CD66B /* RSKTouchView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSKTouchView.m; path = RSKImageCropper/RSKTouchView.m; sourceTree = "<group>"; };
+		8C58081F1288CB7A08FCDF15D48D31E0 /* CircleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleButton.swift; path = NXDrawKit/Classes/CircleButton.swift; sourceTree = "<group>"; };
+		8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8E1BCD9E491E9F3A0A2F611232BC9837 /* UIImage+RSKImageCropper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+RSKImageCropper.h"; path = "RSKImageCropper/UIImage+RSKImageCropper.h"; sourceTree = "<group>"; };
+		8F47B56930BF515014BDA3C3BD3730B1 /* Pods-DrawerDemoSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DrawerDemoSwift-umbrella.h"; sourceTree = "<group>"; };
+		9284A697F9ECBFBEEF24F553A6271598 /* NXDrawKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NXDrawKit-dummy.m"; sourceTree = "<group>"; };
+		92A92B888DD18D9F815C7D78F5748BFB /* icon_undo@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_undo@3x.png"; path = "NXDrawKit/Assets/icon_undo@3x.png"; sourceTree = "<group>"; };
+		93084BCAEC0F14312058F844ED0F5E0E /* Pods-DrawerDemoSwift-DrawerDemoSwiftUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DrawerDemoSwift-DrawerDemoSwiftUITests.modulemap"; sourceTree = "<group>"; };
+		9470F03EE4B8CBBD31F3B238880131AA /* NXDrawKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NXDrawKit.framework; path = NXDrawKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98290B820AB400EFF4971AFC7F35BFCF /* Pods-DrawerDemoSwift-DrawerDemoSwiftUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DrawerDemoSwift-DrawerDemoSwiftUITests-Info.plist"; sourceTree = "<group>"; };
+		992F9FE3711B7EDD17EDED4BFA12AF03 /* UIImage+RSKImageCropper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RSKImageCropper.m"; path = "RSKImageCropper/UIImage+RSKImageCropper.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		A04BBEB4ED9CEB31FB90448BDE0F7729 /* Pods-DrawerDemoSwift-DrawerDemoSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DrawerDemoSwift-DrawerDemoSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A19F0BC5687B8C92186532E5ECFBE1BD /* Pods-DrawerDemoSwiftTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DrawerDemoSwiftTests.modulemap"; sourceTree = "<group>"; };
+		A3BC0CD10322B87FC5D8D20D197E2288 /* Pods-DrawerDemoSwift-DrawerDemoSwiftUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DrawerDemoSwift-DrawerDemoSwiftUITests-dummy.m"; sourceTree = "<group>"; };
+		A47A72D282B83B20CA4AC3FE58324489 /* Pods-DrawerDemoSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DrawerDemoSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		A4D95DCED8BAA909FA0CB3338334F849 /* RSKImageScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSKImageScrollView.m; path = RSKImageCropper/RSKImageScrollView.m; sourceTree = "<group>"; };
+		A5FA83DCAAAE696169DFD92E377B9261 /* Pods-DrawerDemoSwift-DrawerDemoSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DrawerDemoSwift-DrawerDemoSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A8F8ED94E9165B7E6C3C4B890C11505B /* Pods_DrawerDemoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DrawerDemoSwift.framework; path = "Pods-DrawerDemoSwift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0822C7DDC14A42D1F9B0DD48DEF18E /* Pods-DrawerDemoSwift-DrawerDemoSwiftUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DrawerDemoSwift-DrawerDemoSwiftUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B173ED86F19155A28C82A863ADB1A4C6 /* icon_camera.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = icon_camera.png; path = NXDrawKit/Assets/icon_camera.png; sourceTree = "<group>"; };
+		B58991A34104E12EC8A5563B6A9A07BC /* icon_undo.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = icon_undo.png; path = NXDrawKit/Assets/icon_undo.png; sourceTree = "<group>"; };
+		B6EF8F7B0CC28BDD4D0DB6129172E948 /* Pods-DrawerDemoSwiftTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DrawerDemoSwiftTests-Info.plist"; sourceTree = "<group>"; };
+		B785930FAEB33916D5A5B761375DDA51 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = NXDrawKit/Classes/Session.swift; sourceTree = "<group>"; };
+		BBAC9DED912A7A74E3E929EE6C2914EA /* icon_redo@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_redo@3x.png"; path = "NXDrawKit/Assets/icon_redo@3x.png"; sourceTree = "<group>"; };
+		C1CDD31B39FC4BE2B1A5D3352B470D64 /* Pods-DrawerDemoSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DrawerDemoSwift.modulemap"; sourceTree = "<group>"; };
+		C39F33AA1B62DFF3FDC366C041A0D4B4 /* Pods-DrawerDemoSwiftTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DrawerDemoSwiftTests-umbrella.h"; sourceTree = "<group>"; };
+		C65EDFEBDCD1375893728DFB74720234 /* RSKImageCropper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RSKImageCropper-Info.plist"; sourceTree = "<group>"; };
+		C67AC61F9DB4C221A71631F9D39941AD /* Pods-DrawerDemoSwift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DrawerDemoSwift-frameworks.sh"; sourceTree = "<group>"; };
+		D2C2CB5EC3DCA06D99191E46DED6225E /* Pods_DrawerDemoSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DrawerDemoSwiftTests.framework; path = "Pods-DrawerDemoSwiftTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0309657485F027DF5644233B9281CCA /* Pods-DrawerDemoSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DrawerDemoSwift-dummy.m"; sourceTree = "<group>"; };
+		E0FF947185F0685166727D190C590E4C /* icon_redo.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = icon_redo.png; path = NXDrawKit/Assets/icon_redo.png; sourceTree = "<group>"; };
+		E4EB6D176A2F7E77A35AD0A3F38BF4BC /* Pods-DrawerDemoSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DrawerDemoSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E83195C94A97DB1C8F41488AA6E02A74 /* NXDrawKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NXDrawKit-Info.plist"; sourceTree = "<group>"; };
+		E91474E4CB3B86BED398CE3336D81C9D /* RSKImageCropper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSKImageCropper.release.xcconfig; sourceTree = "<group>"; };
+		E9E2B3AA851D0A92F25B91CBC06B3CC1 /* CGGeometry+RSKImageCropper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CGGeometry+RSKImageCropper.m"; path = "RSKImageCropper/CGGeometry+RSKImageCropper.m"; sourceTree = "<group>"; };
+		EA15BFBF2442D171A72379C6ACFCC180 /* RSKInternalUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSKInternalUtility.m; path = RSKImageCropper/RSKInternalUtility.m; sourceTree = "<group>"; };
+		EBDBF7FB72F63DA777731BE6A9CCE887 /* ToolBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToolBar.swift; path = NXDrawKit/Classes/ToolBar.swift; sourceTree = "<group>"; };
+		EE6991D091C3D22DF4B93A8F8D35FCFD /* Drawing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Drawing.swift; path = NXDrawKit/Classes/Drawing.swift; sourceTree = "<group>"; };
+		F04249D66F9BA22E2B30C4E96D44152B /* icon_eraser@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_eraser@3x.png"; path = "NXDrawKit/Assets/icon_eraser@3x.png"; sourceTree = "<group>"; };
+		F173A14A770A0B3B5929D119A53C1995 /* RSKImageCropper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSKImageCropper.debug.xcconfig; sourceTree = "<group>"; };
+		F333C87E64B5B82C0B92EB81DED59AAB /* ResourceBundle-NXDrawKit-NXDrawKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-NXDrawKit-NXDrawKit-Info.plist"; sourceTree = "<group>"; };
+		F534D014A5AA44D43DF5F9D392753DC9 /* RSKTouchView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSKTouchView.h; path = RSKImageCropper/RSKTouchView.h; sourceTree = "<group>"; };
+		FA37C61DC5BC0705378E26C6D43CD21A /* Pods-DrawerDemoSwift-DrawerDemoSwiftUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DrawerDemoSwift-DrawerDemoSwiftUITests-umbrella.h"; sourceTree = "<group>"; };
+		FAC94AD87F64C71EF03C41DC0A331131 /* icon_redo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_redo@2x.png"; path = "NXDrawKit/Assets/icon_redo@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E3D32A1B2FB1649D8AFADF61692375E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C1FF3942B539272C9075577E778E483 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1652B2B69AF78F862773F277FBF6C69A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A711DB7AE956011639E99BC8067477C7 /* Foundation.framework in Frameworks */,
+				398EEBD40DEB54484AC8C58FD19E8B51 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A3D4D9DE400D69FCDAC9A28383E6081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBBBDE56053BEF429C46E83DB6D2441 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2648B3F11675D76D95C87B416D0E7680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60EDBBB2656125F3D93BA1FAD7286E2F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		265C00C590929B02E046D5ED4D6C34A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33BDA8240B74F6D808BB3B4213A44F64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45D4EA63CE343EDC0CAE229B0836834B /* Foundation.framework in Frameworks */,
+				791D19FBE162FA61869D79BBE7841923 /* QuartzCore.framework in Frameworks */,
+				51A1A5385F021A91459CE3066EB7341B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0A778C0229E9BF1FD97896B93F3272B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D5F7987FD31EE1BE9E153379B60306A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C0872893F837EA0AE579F609BC5E20F /* RSKImageCropper.modulemap */,
+				86433F27BCF13F625458EB6DA74EE20F /* RSKImageCropper-dummy.m */,
+				C65EDFEBDCD1375893728DFB74720234 /* RSKImageCropper-Info.plist */,
+				43C3695003983460B593C03C59A05099 /* RSKImageCropper-prefix.pch */,
+				F173A14A770A0B3B5929D119A53C1995 /* RSKImageCropper.debug.xcconfig */,
+				E91474E4CB3B86BED398CE3336D81C9D /* RSKImageCropper.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RSKImageCropper";
+			sourceTree = "<group>";
+		};
+		3FD78C037CA6C26E09EC651BE7F21BFA /* Pods-DrawerDemoSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				A19F0BC5687B8C92186532E5ECFBE1BD /* Pods-DrawerDemoSwiftTests.modulemap */,
+				1FA642398399373F8231C620F5F57F1A /* Pods-DrawerDemoSwiftTests-acknowledgements.markdown */,
+				836D65E3CD41898AA4155027588C012A /* Pods-DrawerDemoSwiftTests-acknowledgements.plist */,
+				3EF66F50B8317ED9B115516143519326 /* Pods-DrawerDemoSwiftTests-dummy.m */,
+				B6EF8F7B0CC28BDD4D0DB6129172E948 /* Pods-DrawerDemoSwiftTests-Info.plist */,
+				C39F33AA1B62DFF3FDC366C041A0D4B4 /* Pods-DrawerDemoSwiftTests-umbrella.h */,
+				E4EB6D176A2F7E77A35AD0A3F38BF4BC /* Pods-DrawerDemoSwiftTests.debug.xcconfig */,
+				14EA295456BAA54B0F28D525BA6D5F02 /* Pods-DrawerDemoSwiftTests.release.xcconfig */,
+			);
+			name = "Pods-DrawerDemoSwiftTests";
+			path = "Target Support Files/Pods-DrawerDemoSwiftTests";
+			sourceTree = "<group>";
+		};
+		5733CE74FADCA9BC5EDCB594D3107598 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				963AEEAEF4CB27ADB27FCE25B273410F /* NXDrawKit */,
+				9DBE623A6ECE00FB0C3C599896C23F32 /* RSKImageCropper */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		77A73602972F62B9DAF05F9A2CE487CB /* Pods-DrawerDemoSwift */ = {
+			isa = PBXGroup;
+			children = (
+				C1CDD31B39FC4BE2B1A5D3352B470D64 /* Pods-DrawerDemoSwift.modulemap */,
+				2DDFBBF4C5C251528BC17F04EB5A34E5 /* Pods-DrawerDemoSwift-acknowledgements.markdown */,
+				6A2B7BC427FEA25CE3ADDA601EAC0FD8 /* Pods-DrawerDemoSwift-acknowledgements.plist */,
+				E0309657485F027DF5644233B9281CCA /* Pods-DrawerDemoSwift-dummy.m */,
+				C67AC61F9DB4C221A71631F9D39941AD /* Pods-DrawerDemoSwift-frameworks.sh */,
+				429C38EACB2C85D2580D9847CCA548D2 /* Pods-DrawerDemoSwift-Info.plist */,
+				8F47B56930BF515014BDA3C3BD3730B1 /* Pods-DrawerDemoSwift-umbrella.h */,
+				A47A72D282B83B20CA4AC3FE58324489 /* Pods-DrawerDemoSwift.debug.xcconfig */,
+				2A5DE09EB977DD27653461A45E0E45AB /* Pods-DrawerDemoSwift.release.xcconfig */,
+			);
+			name = "Pods-DrawerDemoSwift";
+			path = "Target Support Files/Pods-DrawerDemoSwift";
+			sourceTree = "<group>";
+		};
+		963AEEAEF4CB27ADB27FCE25B273410F /* NXDrawKit */ = {
+			isa = PBXGroup;
+			children = (
+				59164FA582D1960B799582C1AC8AF4CA /* Brush.swift */,
+				3E416C501A2F1D322F4EF0B6D23026D2 /* Canvas.swift */,
+				8C58081F1288CB7A08FCDF15D48D31E0 /* CircleButton.swift */,
+				EE6991D091C3D22DF4B93A8F8D35FCFD /* Drawing.swift */,
+				3D67016B80C94544195F37638C54AE91 /* Palette.swift */,
+				B785930FAEB33916D5A5B761375DDA51 /* Session.swift */,
+				EBDBF7FB72F63DA777731BE6A9CCE887 /* ToolBar.swift */,
+				74A8274A452E77BA906FF935C8EC3E3E /* UIImageExtractExtension.swift */,
+				01DC510467E53470B4ADD1B0657D3641 /* UIViewFrameExtension.swift */,
+				B605C20F9894C15BF6C0942146B5EAC5 /* Resources */,
+				B06F08CFD691AC1E8F0F564D1014DFF8 /* Support Files */,
+			);
+			name = NXDrawKit;
+			path = NXDrawKit;
+			sourceTree = "<group>";
+		};
+		9DBE623A6ECE00FB0C3C599896C23F32 /* RSKImageCropper */ = {
+			isa = PBXGroup;
+			children = (
+				76D77102D1BEF373124A62F4DA8BFB35 /* CGGeometry+RSKImageCropper.h */,
+				E9E2B3AA851D0A92F25B91CBC06B3CC1 /* CGGeometry+RSKImageCropper.m */,
+				08A1595DC7C5B25CE7FA3FBD7DDC224A /* RSKImageCropper.h */,
+				201365A173C9D2681600752E7A6E845C /* RSKImageCropViewController.h */,
+				4A574241B43B6128FD05C45851C4ED1F /* RSKImageCropViewController.m */,
+				862063D063D700BBB9BD5DF0620E14EB /* RSKImageCropViewController+Protected.h */,
+				3AAB4D8FC46A663C3865AC38D720862F /* RSKImageScrollView.h */,
+				A4D95DCED8BAA909FA0CB3338334F849 /* RSKImageScrollView.m */,
+				02D2D2BDD9057091F3CEA8275A991849 /* RSKInternalUtility.h */,
+				EA15BFBF2442D171A72379C6ACFCC180 /* RSKInternalUtility.m */,
+				F534D014A5AA44D43DF5F9D392753DC9 /* RSKTouchView.h */,
+				8A6C02D2A73AD0C4A1316CB23D7CD66B /* RSKTouchView.m */,
+				8E1BCD9E491E9F3A0A2F611232BC9837 /* UIImage+RSKImageCropper.h */,
+				992F9FE3711B7EDD17EDED4BFA12AF03 /* UIImage+RSKImageCropper.m */,
+				D9B5B0ED213EF4A97177525D81D0C47A /* Resources */,
+				3D5F7987FD31EE1BE9E153379B60306A /* Support Files */,
+			);
+			name = RSKImageCropper;
+			path = RSKImageCropper;
+			sourceTree = "<group>";
+		};
+		B06F08CFD691AC1E8F0F564D1014DFF8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E9A41C9277B3ACF2E77B11EE191BF52 /* NXDrawKit.modulemap */,
+				9284A697F9ECBFBEEF24F553A6271598 /* NXDrawKit-dummy.m */,
+				E83195C94A97DB1C8F41488AA6E02A74 /* NXDrawKit-Info.plist */,
+				3B456D5A81159FE693001B577AD0C23E /* NXDrawKit-prefix.pch */,
+				3250327AE6BE7B535C371D5AD1B90649 /* NXDrawKit-umbrella.h */,
+				521466AB97AC13C8A467D913ABEE75F0 /* NXDrawKit.debug.xcconfig */,
+				278B2FCA9ED54BFF695753F4302F61CA /* NXDrawKit.release.xcconfig */,
+				F333C87E64B5B82C0B92EB81DED59AAB /* ResourceBundle-NXDrawKit-NXDrawKit-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NXDrawKit";
+			sourceTree = "<group>";
+		};
+		B605C20F9894C15BF6C0942146B5EAC5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B173ED86F19155A28C82A863ADB1A4C6 /* icon_camera.png */,
+				0C88CEF079BF4C0B8AD30DD5C05FEC1E /* icon_camera@2x.png */,
+				6801DA1AED7E876437074F3F3BEE93BC /* icon_camera@3x.png */,
+				81188DC29131E1E2E49D0E74AF77B3E5 /* icon_eraser.png */,
+				1D1DB1E56238C3B6C8C41B02169B4EA5 /* icon_eraser@2x.png */,
+				F04249D66F9BA22E2B30C4E96D44152B /* icon_eraser@3x.png */,
+				E0FF947185F0685166727D190C590E4C /* icon_redo.png */,
+				FAC94AD87F64C71EF03C41DC0A331131 /* icon_redo@2x.png */,
+				BBAC9DED912A7A74E3E929EE6C2914EA /* icon_redo@3x.png */,
+				B58991A34104E12EC8A5563B6A9A07BC /* icon_undo.png */,
+				77F2483FCA6175BEF889600D599039FF /* icon_undo@2x.png */,
+				92A92B888DD18D9F815C7D78F5748BFB /* icon_undo@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B6B155815712B1F6E5B4FBDD3A776FD1 /* Pods-DrawerDemoSwift-DrawerDemoSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				93084BCAEC0F14312058F844ED0F5E0E /* Pods-DrawerDemoSwift-DrawerDemoSwiftUITests.modulemap */,
+				4CE398ED60932629AFD514548AE46E96 /* Pods-DrawerDemoSwift-DrawerDemoSwiftUITests-acknowledgements.markdown */,
+				AA0822C7DDC14A42D1F9B0DD48DEF18E /* Pods-DrawerDemoSwift-DrawerDemoSwiftUITests-acknowledgements.plist */,
+				A3BC0CD10322B87FC5D8D20D197E2288 /* Pods-DrawerDemoSwift-DrawerDemoSwiftUITests-dummy.m */,
+				49FB4CD3A96142415A69518D9F5B996C /* Pods-DrawerDemoSwift-DrawerDemoSwiftUITests-frameworks.sh */,
+				98290B820AB400EFF4971AFC7F35BFCF /* Pods-DrawerDemoSwift-DrawerDemoSwiftUITests-Info.plist */,
+				FA37C61DC5BC0705378E26C6D43CD21A /* Pods-DrawerDemoSwift-DrawerDemoSwiftUITests-umbrella.h */,
+				A04BBEB4ED9CEB31FB90448BDE0F7729 /* Pods-DrawerDemoSwift-DrawerDemoSwiftUITests.debug.xcconfig */,
+				A5FA83DCAAAE696169DFD92E377B9261 /* Pods-DrawerDemoSwift-DrawerDemoSwiftUITests.release.xcconfig */,
+			);
+			name = "Pods-DrawerDemoSwift-DrawerDemoSwiftUITests";
+			path = "Target Support Files/Pods-DrawerDemoSwift-DrawerDemoSwiftUITests";
+			sourceTree = "<group>";
+		};
+		B961E065F78EB2A5C6C07C2FBC9A2455 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				534E53882FD5F8F79EB1CDB58B8A1CA7 /* NXDrawKit.bundle */,
+				9470F03EE4B8CBBD31F3B238880131AA /* NXDrawKit.framework */,
+				A8F8ED94E9165B7E6C3C4B890C11505B /* Pods_DrawerDemoSwift.framework */,
+				268194BEA94D615B650AB9F57F806FD3 /* Pods_DrawerDemoSwift_DrawerDemoSwiftUITests.framework */,
+				D2C2CB5EC3DCA06D99191E46DED6225E /* Pods_DrawerDemoSwiftTests.framework */,
+				580712ADE0DDE9601ED35B000EC802D6 /* RSKImageCropper.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				5733CE74FADCA9BC5EDCB594D3107598 /* Pods */,
+				B961E065F78EB2A5C6C07C2FBC9A2455 /* Products */,
+				D2E296E9DF97707E8E3F4068DFF12B89 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D2E296E9DF97707E8E3F4068DFF12B89 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				77A73602972F62B9DAF05F9A2CE487CB /* Pods-DrawerDemoSwift */,
+				B6B155815712B1F6E5B4FBDD3A776FD1 /* Pods-DrawerDemoSwift-DrawerDemoSwiftUITests */,
+				3FD78C037CA6C26E09EC651BE7F21BFA /* Pods-DrawerDemoSwiftTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D9B5B0ED213EF4A97177525D81D0C47A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7F315D4B35F8D51D44BABA3F3BAEF023 /* RSKImageCropperStrings.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F0A778C0229E9BF1FD97896B93F3272B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */,
+				9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */,
+				8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		28915A743185090C793364D876599508 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEB87BDE2C589D4E14616F2519729AA9 /* Pods-DrawerDemoSwiftTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624ABDB7FBE90199B2F51C548D31090B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53893175787CF683B80A6EFEE02CC69D /* Pods-DrawerDemoSwift-DrawerDemoSwiftUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FC81D384BDB428C85C838CEA14B300 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72F6A381AD0B1C5275CF4E79AB9953AB /* Pods-DrawerDemoSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD1AB6D73BB5994B352DFB383379451 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F5DC8C90D766C62B74280B24CF1198 /* CGGeometry+RSKImageCropper.h in Headers */,
+				05786EEE357E9020F546DEECB68AD5A8 /* RSKImageCropper.h in Headers */,
+				75B7D73B407EEA5ED1F584C4922392DB /* RSKImageCropViewController+Protected.h in Headers */,
+				D31A59CCC99DF6595AC708E1E35AAB2E /* RSKImageCropViewController.h in Headers */,
+				063AA6300FBFDB2DCB9CBB2D0C04626B /* RSKImageScrollView.h in Headers */,
+				134631E10AECB3EB1F69A2241C46930E /* RSKInternalUtility.h in Headers */,
+				73193EC3874798F94578D8B5071C560A /* RSKTouchView.h in Headers */,
+				B39DFE8866C66C731C073F1F900DCA3E /* UIImage+RSKImageCropper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE382D99A1977833FE6728DE1C699240 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				012E8E6C4EA9E7E81CA81CC5BF771492 /* NXDrawKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		989D8912A90FEA816631AFF9809BF004 /* Pods-DrawerDemoSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB393C53221F8B9AC4D145EEF00CA154 /* Build configuration list for PBXNativeTarget "Pods-DrawerDemoSwift" */;
+			buildPhases = (
+				91FC81D384BDB428C85C838CEA14B300 /* Headers */,
+				D30E4036B987BA766A69050D9638784D /* Sources */,
+				2648B3F11675D76D95C87B416D0E7680 /* Frameworks */,
+				71374074B0B1485FFEF4D3A8BFFAA9E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02490470718164CE842F5B704034DA31 /* PBXTargetDependency */,
+				6BB8F66E347D3B3E9657A15F6FDCB9BF /* PBXTargetDependency */,
+			);
+			name = "Pods-DrawerDemoSwift";
+			productName = "Pods-DrawerDemoSwift";
+			productReference = A8F8ED94E9165B7E6C3C4B890C11505B /* Pods_DrawerDemoSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A2B270FD27E5EB1522A582EE6D70C31B /* NXDrawKit-NXDrawKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1781F5B0E4263A421359DA5A9FDBC36E /* Build configuration list for PBXNativeTarget "NXDrawKit-NXDrawKit" */;
+			buildPhases = (
+				83733BDFA57B8909DEF6EBB7603C7FCC /* Sources */,
+				265C00C590929B02E046D5ED4D6C34A1 /* Frameworks */,
+				A1C4493F471FF981B4790DA3F145CC0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NXDrawKit-NXDrawKit";
+			productName = "NXDrawKit-NXDrawKit";
+			productReference = 534E53882FD5F8F79EB1CDB58B8A1CA7 /* NXDrawKit.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A30157FD17984D82FB7B26EE61267BE2 /* RSKImageCropper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A549ED377780AB4DC7E425CE8C7F1972 /* Build configuration list for PBXNativeTarget "RSKImageCropper" */;
+			buildPhases = (
+				BCD1AB6D73BB5994B352DFB383379451 /* Headers */,
+				E2F064A68E73393BEADCEB8654841DB2 /* Sources */,
+				33BDA8240B74F6D808BB3B4213A44F64 /* Frameworks */,
+				3DEF011D92C0378C2A8BE975E65915BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSKImageCropper;
+			productName = RSKImageCropper;
+			productReference = 580712ADE0DDE9601ED35B000EC802D6 /* RSKImageCropper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A4575F78F6CA63687D1B2173044F92A0 /* NXDrawKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CBE6E90EABB8A92BF4DAFB555E27F69 /* Build configuration list for PBXNativeTarget "NXDrawKit" */;
+			buildPhases = (
+				DE382D99A1977833FE6728DE1C699240 /* Headers */,
+				2DDF11C5073C030CFDD5FB7607DC7480 /* Sources */,
+				1652B2B69AF78F862773F277FBF6C69A /* Frameworks */,
+				F78398F7F96340259773184EA0CACF0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3438ACC2C1901744C1D028F486D10AF8 /* PBXTargetDependency */,
+			);
+			name = NXDrawKit;
+			productName = NXDrawKit;
+			productReference = 9470F03EE4B8CBBD31F3B238880131AA /* NXDrawKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BEA2BE582BFD7C44655AA8B0DF237C76 /* Pods-DrawerDemoSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B17C0518861048E787D6D9446B4738B5 /* Build configuration list for PBXNativeTarget "Pods-DrawerDemoSwiftTests" */;
+			buildPhases = (
+				28915A743185090C793364D876599508 /* Headers */,
+				EBA3F4E5655992C84FF1F5371390BA18 /* Sources */,
+				0E3D32A1B2FB1649D8AFADF61692375E /* Frameworks */,
+				DB98E798E1A1199E1EBAAA4D8AFB2EDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E29E18A47C9C2AE48D4646183530F78 /* PBXTargetDependency */,
+			);
+			name = "Pods-DrawerDemoSwiftTests";
+			productName = "Pods-DrawerDemoSwiftTests";
+			productReference = D2C2CB5EC3DCA06D99191E46DED6225E /* Pods_DrawerDemoSwiftTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D11589B6617C55C66EDB574F7B9D3056 /* Pods-DrawerDemoSwift-DrawerDemoSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042AE023266D17F35A08BEF9E2EAE266 /* Build configuration list for PBXNativeTarget "Pods-DrawerDemoSwift-DrawerDemoSwiftUITests" */;
+			buildPhases = (
+				624ABDB7FBE90199B2F51C548D31090B /* Headers */,
+				58A0CB8D2F48A2B283BB5165605D80FE /* Sources */,
+				1A3D4D9DE400D69FCDAC9A28383E6081 /* Frameworks */,
+				53978849241B3895F8DE8D1604CD0257 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F53780D0159AF50B5AD48119633D84D5 /* PBXTargetDependency */,
+				F0E16721393AD75A42FB6F0150B5F564 /* PBXTargetDependency */,
+			);
+			name = "Pods-DrawerDemoSwift-DrawerDemoSwiftUITests";
+			productName = "Pods-DrawerDemoSwift-DrawerDemoSwiftUITests";
+			productReference = 268194BEA94D615B650AB9F57F806FD3 /* Pods_DrawerDemoSwift_DrawerDemoSwiftUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B961E065F78EB2A5C6C07C2FBC9A2455 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4575F78F6CA63687D1B2173044F92A0 /* NXDrawKit */,
+				A2B270FD27E5EB1522A582EE6D70C31B /* NXDrawKit-NXDrawKit */,
+				989D8912A90FEA816631AFF9809BF004 /* Pods-DrawerDemoSwift */,
+				D11589B6617C55C66EDB574F7B9D3056 /* Pods-DrawerDemoSwift-DrawerDemoSwiftUITests */,
+				BEA2BE582BFD7C44655AA8B0DF237C76 /* Pods-DrawerDemoSwiftTests */,
+				A30157FD17984D82FB7B26EE61267BE2 /* RSKImageCropper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DEF011D92C0378C2A8BE975E65915BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3771329C24E030F44A941AA452017492 /* RSKImageCropperStrings.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53978849241B3895F8DE8D1604CD0257 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71374074B0B1485FFEF4D3A8BFFAA9E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C4493F471FF981B4790DA3F145CC0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BCE5FF444480BA3D0D2CB339D3711B0 /* icon_camera.png in Resources */,
+				88437ACD4F6F6ED3A1DEF95B1567E571 /* icon_camera@2x.png in Resources */,
+				D436E08808FFEB32CB5FD35079B35CE1 /* icon_camera@3x.png in Resources */,
+				BEAA3D408162408D8B317C5D63E95317 /* icon_eraser.png in Resources */,
+				1DCF9B2A71B5F2775A7290FB5DD08F5A /* icon_eraser@2x.png in Resources */,
+				E2B166117CC6A36A9C841F8CEA4B0431 /* icon_eraser@3x.png in Resources */,
+				926BC3D3B762BEF4530547EE22AF1F1A /* icon_redo.png in Resources */,
+				397C107AE2AD10E82509D6BCF7013D1B /* icon_redo@2x.png in Resources */,
+				70DE52CD9D01F5901A32ACE236380EA9 /* icon_redo@3x.png in Resources */,
+				A7602F47C0EE4DB9CB42296167B4B5F4 /* icon_undo.png in Resources */,
+				524BA93C396F3C09EF8745F7F01B1DC1 /* icon_undo@2x.png in Resources */,
+				91A8B1EEB98A682DACDD41BEA057A25B /* icon_undo@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB98E798E1A1199E1EBAAA4D8AFB2EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78398F7F96340259773184EA0CACF0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2557DCF328395A30A91466101C7EF56 /* NXDrawKit.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DDF11C5073C030CFDD5FB7607DC7480 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90807172E1DD58050A850CF4071EFBEF /* Brush.swift in Sources */,
+				6945763CD4E5841F07D30D02EBBE7D60 /* Canvas.swift in Sources */,
+				5120A26E39146C71A49714055D1F9566 /* CircleButton.swift in Sources */,
+				A747DA2976FAFBDADFE14A3CAD568FD0 /* Drawing.swift in Sources */,
+				95993AB57A86982329777BF226B479A1 /* NXDrawKit-dummy.m in Sources */,
+				7229CF6328AD288AD32F9C9C5BCBC24C /* Palette.swift in Sources */,
+				29139C371FDC61D23144B76E0DBC34E7 /* Session.swift in Sources */,
+				5A7D836D829B99EA803633761765D486 /* ToolBar.swift in Sources */,
+				DF396E9B14B747F6903D4B926C9AABCA /* UIImageExtractExtension.swift in Sources */,
+				479FC6E89C0BA565885F8A205EB0638B /* UIViewFrameExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58A0CB8D2F48A2B283BB5165605D80FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78105E480E79CBB7B576B87699904845 /* Pods-DrawerDemoSwift-DrawerDemoSwiftUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83733BDFA57B8909DEF6EBB7603C7FCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D30E4036B987BA766A69050D9638784D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66657E22F17ED86C83B5BFC10C8103DF /* Pods-DrawerDemoSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2F064A68E73393BEADCEB8654841DB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD15DF5B57CFCE9677C12BD833852439 /* CGGeometry+RSKImageCropper.m in Sources */,
+				B53978AFB88F3995F012622F55C5A73D /* RSKImageCropper-dummy.m in Sources */,
+				3D465711789D9CDF0E50F023EDD59550 /* RSKImageCropViewController.m in Sources */,
+				953238937A74A5181D98E6B61CEA4F0F /* RSKImageScrollView.m in Sources */,
+				B6713654B6A9A36FA3C6FB93F7920171 /* RSKInternalUtility.m in Sources */,
+				273893D3A3ED6953BCACAC2A441ADE60 /* RSKTouchView.m in Sources */,
+				AB9006940F9600D174DDEF9CE68C89A3 /* UIImage+RSKImageCropper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBA3F4E5655992C84FF1F5371390BA18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				228C02205665048608F26632E216991A /* Pods-DrawerDemoSwiftTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02490470718164CE842F5B704034DA31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NXDrawKit;
+			target = A4575F78F6CA63687D1B2173044F92A0 /* NXDrawKit */;
+			targetProxy = D7A81854A884AC85BAC4B6DC652DEC79 /* PBXContainerItemProxy */;
+		};
+		3438ACC2C1901744C1D028F486D10AF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NXDrawKit-NXDrawKit";
+			target = A2B270FD27E5EB1522A582EE6D70C31B /* NXDrawKit-NXDrawKit */;
+			targetProxy = 8C71203BF8A32FE61AE7A9573CBF07C5 /* PBXContainerItemProxy */;
+		};
+		3E29E18A47C9C2AE48D4646183530F78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DrawerDemoSwift";
+			target = 989D8912A90FEA816631AFF9809BF004 /* Pods-DrawerDemoSwift */;
+			targetProxy = 3AB423A741149900A06E20B51510CC91 /* PBXContainerItemProxy */;
+		};
+		6BB8F66E347D3B3E9657A15F6FDCB9BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RSKImageCropper;
+			target = A30157FD17984D82FB7B26EE61267BE2 /* RSKImageCropper */;
+			targetProxy = 6042C7DB15F7522859E33A1FBA23B1B8 /* PBXContainerItemProxy */;
+		};
+		F0E16721393AD75A42FB6F0150B5F564 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RSKImageCropper;
+			target = A30157FD17984D82FB7B26EE61267BE2 /* RSKImageCropper */;
+			targetProxy = D6B80B8E2D5B7F6879EF4EAD64D517E9 /* PBXContainerItemProxy */;
+		};
+		F53780D0159AF50B5AD48119633D84D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NXDrawKit;
+			target = A4575F78F6CA63687D1B2173044F92A0 /* NXDrawKit */;
+			targetProxy = 81F60FF66378A9269CCD82123FB707E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0082FC00BCCBFCAA63AA5C98EA587C17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		09B93661BAA21820684F0A2DAD74F9EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A5DE09EB977DD27653461A45E0E45AB /* Pods-DrawerDemoSwift.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DrawerDemoSwift/Pods-DrawerDemoSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DrawerDemoSwift/Pods-DrawerDemoSwift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2829AF257F1290ABC2901BF3C7EFC4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 521466AB97AC13C8A467D913ABEE75F0 /* NXDrawKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NXDrawKit/NXDrawKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NXDrawKit/NXDrawKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NXDrawKit/NXDrawKit.modulemap";
+				PRODUCT_MODULE_NAME = NXDrawKit;
+				PRODUCT_NAME = NXDrawKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		49C5240FDDA6821BEAA3F53088E88D66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E91474E4CB3B86BED398CE3336D81C9D /* RSKImageCropper.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RSKImageCropper/RSKImageCropper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RSKImageCropper/RSKImageCropper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RSKImageCropper/RSKImageCropper.modulemap";
+				PRODUCT_MODULE_NAME = RSKImageCropper;
+				PRODUCT_NAME = RSKImageCropper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5B27BBBC11CB3BF08DEA071432069F4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F173A14A770A0B3B5929D119A53C1995 /* RSKImageCropper.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RSKImageCropper/RSKImageCropper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RSKImageCropper/RSKImageCropper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RSKImageCropper/RSKImageCropper.modulemap";
+				PRODUCT_MODULE_NAME = RSKImageCropper;
+				PRODUCT_NAME = RSKImageCropper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		849038E63B4B651AAB80683C2D4753D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A47A72D282B83B20CA4AC3FE58324489 /* Pods-DrawerDemoSwift.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DrawerDemoSwift/Pods-DrawerDemoSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DrawerDemoSwift/Pods-DrawerDemoSwift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		979036741DD72DF1D4AA461DE64ACC51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 278B2FCA9ED54BFF695753F4302F61CA /* NXDrawKit.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NXDrawKit";
+				IBSC_MODULE = NXDrawKit;
+				INFOPLIST_FILE = "Target Support Files/NXDrawKit/ResourceBundle-NXDrawKit-NXDrawKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = NXDrawKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A0E43321A24501FDBB277E1DCF599127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 278B2FCA9ED54BFF695753F4302F61CA /* NXDrawKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NXDrawKit/NXDrawKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NXDrawKit/NXDrawKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NXDrawKit/NXDrawKit.modulemap";
+				PRODUCT_MODULE_NAME = NXDrawKit;
+				PRODUCT_NAME = NXDrawKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AF205980ED8C55C3B0F6C1DD1E9688A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5FA83DCAAAE696169DFD92E377B9261 /* Pods-DrawerDemoSwift-DrawerDemoSwiftUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DrawerDemoSwift-DrawerDemoSwiftUITests/Pods-DrawerDemoSwift-DrawerDemoSwiftUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DrawerDemoSwift-DrawerDemoSwiftUITests/Pods-DrawerDemoSwift-DrawerDemoSwiftUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C57A9D89854053A975C0E0CE25F9A6F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A04BBEB4ED9CEB31FB90448BDE0F7729 /* Pods-DrawerDemoSwift-DrawerDemoSwiftUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DrawerDemoSwift-DrawerDemoSwiftUITests/Pods-DrawerDemoSwift-DrawerDemoSwiftUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DrawerDemoSwift-DrawerDemoSwiftUITests/Pods-DrawerDemoSwift-DrawerDemoSwiftUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D4ED04DD54D8B8031A591DE91F4F6AE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6D176A2F7E77A35AD0A3F38BF4BC /* Pods-DrawerDemoSwiftTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DrawerDemoSwiftTests/Pods-DrawerDemoSwiftTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DrawerDemoSwiftTests/Pods-DrawerDemoSwiftTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E5B12AB88A4F6C443C963D290ECB2428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		ECF052EA9F9D9E9AD749FCC2AA70094B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 521466AB97AC13C8A467D913ABEE75F0 /* NXDrawKit.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NXDrawKit";
+				IBSC_MODULE = NXDrawKit;
+				INFOPLIST_FILE = "Target Support Files/NXDrawKit/ResourceBundle-NXDrawKit-NXDrawKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = NXDrawKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F785AB990DBA2FA4B28649E98308665F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14EA295456BAA54B0F28D525BA6D5F02 /* Pods-DrawerDemoSwiftTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DrawerDemoSwiftTests/Pods-DrawerDemoSwiftTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DrawerDemoSwiftTests/Pods-DrawerDemoSwiftTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		042AE023266D17F35A08BEF9E2EAE266 /* Build configuration list for PBXNativeTarget "Pods-DrawerDemoSwift-DrawerDemoSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C57A9D89854053A975C0E0CE25F9A6F9 /* Debug */,
+				AF205980ED8C55C3B0F6C1DD1E9688A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1781F5B0E4263A421359DA5A9FDBC36E /* Build configuration list for PBXNativeTarget "NXDrawKit-NXDrawKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF052EA9F9D9E9AD749FCC2AA70094B /* Debug */,
+				979036741DD72DF1D4AA461DE64ACC51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0082FC00BCCBFCAA63AA5C98EA587C17 /* Debug */,
+				E5B12AB88A4F6C443C963D290ECB2428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CBE6E90EABB8A92BF4DAFB555E27F69 /* Build configuration list for PBXNativeTarget "NXDrawKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2829AF257F1290ABC2901BF3C7EFC4C7 /* Debug */,
+				A0E43321A24501FDBB277E1DCF599127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A549ED377780AB4DC7E425CE8C7F1972 /* Build configuration list for PBXNativeTarget "RSKImageCropper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B27BBBC11CB3BF08DEA071432069F4B /* Debug */,
+				49C5240FDDA6821BEAA3F53088E88D66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B17C0518861048E787D6D9446B4738B5 /* Build configuration list for PBXNativeTarget "Pods-DrawerDemoSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4ED04DD54D8B8031A591DE91F4F6AE5 /* Debug */,
+				F785AB990DBA2FA4B28649E98308665F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB393C53221F8B9AC4D145EEF00CA154 /* Build configuration list for PBXNativeTarget "Pods-DrawerDemoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849038E63B4B651AAB80683C2D4753D8 /* Debug */,
+				09B93661BAA21820684F0A2DAD74F9EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

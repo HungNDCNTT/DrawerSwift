@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-DrawerDemoSwift-DrawerDemoSwiftUITests/Pods-DrawerDemoSwift-DrawerDemoSwiftUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/NXDrawKit/NXDrawKit.framework
+${BUILT_PRODUCTS_DIR}/RSKImageCropper/RSKImageCropper.framework
