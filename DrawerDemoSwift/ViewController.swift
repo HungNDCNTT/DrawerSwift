@@ -198,8 +198,6 @@ class ViewController: UIViewController {
     }
 }
 
-
-// MARK: - CanvasDelegate
 extension ViewController: CanvasDelegate {
     func brush() -> Brush? {
         return self.paletteView?.currentBrush()
@@ -210,19 +208,6 @@ extension ViewController: CanvasDelegate {
     }
     
     func canvas(_ canvas: Canvas, didSaveDrawing drawing: Drawing, mergedImage image: UIImage?) {
-        // you can save merged image
-//        if let pngImage = image?.asPNGImage() {
-//            UIImageWriteToSavedPhotosAlbum(pngImage, self, #selector(ViewController.image(_:didFinishSavingWithError:contextInfo:)), nil)
-//        }
-        
-        // you can save strokeImage
-//        if let pngImage = drawing.stroke?.asPNGImage() {
-//            UIImageWriteToSavedPhotosAlbum(pngImage, self, #selector(ViewController.image(_:didFinishSavingWithError:contextInfo:)), nil)
-//        }
-        
-//        self.updateToolBarButtonStatus(canvas)
-        
-        // you can share your image with UIActivityViewController
         if let pngImage = image?.asPNGImage() {
             let activityViewController = UIActivityViewController(activityItems: [pngImage], applicationActivities: nil)
             activityViewController.completionWithItemsHandler = {(activityType: UIActivity.ActivityType?, completed: Bool, returnedItems: [Any]?, error: Error?) in
@@ -244,7 +229,6 @@ extension ViewController: CanvasDelegate {
 }
 
 
-// MARK: - UIImagePickerControllerDelegate
 extension ViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         let type = info[UIImagePickerController.InfoKey.mediaType]
@@ -269,7 +253,6 @@ extension ViewController: UIImagePickerControllerDelegate, UINavigationControlle
 }
 
 
-// MARK: - RSKImageCropViewControllerDelegate
 extension ViewController: RSKImageCropViewControllerDelegate {
     func imageCropViewController(_ controller: RSKImageCropViewController, didCropImage croppedImage: UIImage, usingCropRect cropRect: CGRect, rotationAngle: CGFloat) {
         self.canvasView?.update(croppedImage)
@@ -282,7 +265,6 @@ extension ViewController: RSKImageCropViewControllerDelegate {
 }
 
 
-// MARK: - UIActionSheetDelegate
 extension ViewController: UIActionSheetDelegate {
     func actionSheet(_ actionSheet: UIActionSheet, clickedButtonAt buttonIndex: Int) {
         if (actionSheet.cancelButtonIndex == buttonIndex) {
@@ -310,22 +292,9 @@ extension ViewController: UIAlertViewDelegate {
 }
 
 
-// MARK: - PaletteDelegate
 extension ViewController: PaletteDelegate {
-//    func didChangeBrushColor(color: UIColor) {
-//
-//    }
-//
-//    func didChangeBrushAlpha(alpha: CGFloat) {
-//
-//    }
-//
-//    func didChangeBrushWidth(width: CGFloat) {
-//
-//    }
     
 
-    // tag can be 1 ... 12
     func colorWithTag(_ tag: NSInteger) -> UIColor? {
         if tag == 4 {
             // if you return clearColor, it will be eraser
@@ -333,18 +302,6 @@ extension ViewController: PaletteDelegate {
         }
         return nil
     }
-    
-    // tag can be 1 ... 4
-//    func widthWithTag(tag: NSInteger) -> CGFloat {
-//        if tag == 1 {
-//            return 5.0
-//        }
-//        return -1
-//    }
-    // tag can be 1 ... 3
-//    func alphaWithTag(tag: NSInteger) -> CGFloat {
-//        return -1
-//    }
 }
 
 
